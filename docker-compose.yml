@@ -1,0 +1,9 @@
+services:
+  soloviov-demo:
+    hostname: soloviov-demo
+    build:
+      dockerfile: ./dev.Dockerfile
+    ports:
+      - 8000:80
+    volumes:
+      - ./src:/src

@@ -1,0 +1,36 @@
+<div class="text-center mb-4">
+    <h1>Short Time Code Demo</h1>
+</div>
+
+<div class="container-fluid">
+    <p>
+        <div>Instructions:</div>
+        <div>
+            <ol>
+                <li>Generate a code in one of two clients</li>
+                <li>Copy the generated code</li>
+                <li>Switch to sender section</li>
+                <li>Paste the code in the "Message receiver code" field</li>
+                <li>Fill the "Message text" field</li>
+                <li>Click "Send"</li>
+                <li>Observe message is received by the client generated the code</li>
+            </ol>
+        </div>
+    </p>
+    <div class="row">
+        <div class="col-lg mb3">
+            <h2>Client 1</h2>
+            <short-time-code-demo-client></short-time-code-demo-client>
+        </div>
+        <div class="col-lg mb3">
+            <h2>Client 2</h2>
+            <short-time-code-demo-client></short-time-code-demo-client>
+        </div>
+        <div class="col-lg mb3">
+            <h2>Sender</h2>
+            <short-time-code-demo-sender></short-time-code-demo-sender>
+        </div>
+    </div>
+</div>
+
+<script src="/public/pages/short-time-code-demo-basic.js" type="module" async></script>
