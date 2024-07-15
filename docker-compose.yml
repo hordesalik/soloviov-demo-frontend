@@ -1,6 +1,6 @@
 services:
-  soloviov-demo:
-    hostname: soloviov-demo
+  soloviov-demo-frontend:
+    hostname: soloviov-demo-frontend
     build:
       dockerfile: ./dev.Dockerfile
     ports:
